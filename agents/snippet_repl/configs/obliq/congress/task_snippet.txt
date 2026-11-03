@@ -1,0 +1,17 @@
+
+
+Rank documents from the corpus that satisfy the request.
+
+The request vaguely remembers a specific moment from a US congressional hearing. There is exactly ONE correct
+transcript passage. Names, dates and committee identifiers have been removed from the request - identify the
+passage by its topic or policy area, the type of exchange, the witness's role and any phrase, number or
+rhetorical move the request describes.
+
+Before searching, name these key elements concretely. Each hop, search a DIFFERENT angle - formal transcript
+language, the policy terms, the witness role, the rhetorical move - and keep a short note per promising doc_id of
+which clues it matches. Read a passage in full when its snippet looks strong and needs verification.
+
+Set answer["content"] to a newline-separated list of doc_ids (format: CHRG-...) ranked STRONGEST TO WEAKEST,
+then answer["ready"] = True. Output ONLY doc_ids, one per line, no prose and no numbering.
+Order matters: the score is NDCG@10 and only one passage is correct, so put your best candidate first.
+Submit more than 10 if you have them -- only the top 10 are scored, so extra candidates cost nothing.

@@ -1,0 +1,908 @@
+% references.bib -- verified 2026-10-31 by the research-librarian pass.
+% Every entry below was checked against a primary or publisher source on that date;
+% the `note` field names the source. Entries marked "secondary-source" in the note
+% could only be confirmed via Wikipedia/search snippets because openai.com returned
+% HTTP 403 to the fetcher -- re-check those in a browser before camera-ready.
+% Items that could NOT be verified are listed in research/RELATED_WORK_NOTES.md (Sec. 3)
+% and are deliberately absent here. Strip the `note` fields before submission if desired.
+
+% ======================================================================
+% 1. Recursive Language Models
+% ======================================================================
+@inproceedings{zhang2025rlm,
+  author    = {Alex L. Zhang and Tim Kraska and Omar Khattab},
+  title     = {Recursive Language Models},
+  booktitle = {Proc. NeurIPS},
+  year      = {2026},
+  url       = {https://openreview.net/forum?id=ColZtoh6As},
+  eprint    = {2512.24601},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  doi       = {10.48550/arXiv.2512.24601},
+  note      = {Poster, NeurIPS 2026 (neurips.cc/virtual/2026/poster/154541); arXiv v1 31 Dec 2025, v3 11 May 2026}
+}
+
+@misc{zhang2025rlmblog,
+  author       = {Alex L. Zhang and Omar Khattab},
+  title        = {Recursive Language Models},
+  howpublished = {Blog post, \url{https://alexzhang13.github.io/blog/2025/rlm/}},
+  month        = oct,
+  year         = {2025},
+  note         = {verified 2026-10-31 via the blog page (published 15 Oct 2025; byline Alex Zhang and Omar Khattab, MIT CSAIL)}
+}
+
+@misc{zhang2025rlmcode,
+  author       = {Alex L. Zhang},
+  title        = {rlm: General plug-and-play inference library for Recursive Language Models},
+  howpublished = {GitHub repository, \url{https://github.com/alexzhang13/rlm}},
+  year         = {2025},
+  note         = {verified 2026-10-31 via api.github.com (created 20 Dec 2025, MIT license, homepage arxiv.org/abs/2512.24601)}
+}
+
+% ======================================================================
+% 2-3. BrowseComp-Plus and BrowseComp
+% ======================================================================
+@inproceedings{chen2026browsecompplus,
+  author    = {Zijian Chen and Xueguang Ma and Shengyao Zhuang and Ping Nie and Kai Zou and Sahel Sharifymoghaddam and Andrew Liu and Joshua Green and Kshama Patel and Ruoxi Meng and Mingyi Su and Yanxi Li and Haoran Hong and Xinyu Shi and Xuye Liu and Hosna Oyarhoseini and Nandan Thakur and Crystina Zhang and Luyu Gao and Wenhu Chen and Jimmy Lin},
+  title     = {{BrowseComp-Plus}: A Fair and Disentangled Evaluation Benchmark for Deep Search Agents},
+  booktitle = {Proc. ACL},
+  month     = jul,
+  year      = {2026},
+  pages     = {22349--22370},
+  doi       = {10.18653/v1/2026.acl-long.1023},
+  url       = {https://aclanthology.org/2026.acl-long.1023/},
+  eprint    = {2508.06600},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note      = {verified 2026-10-31 via aclanthology.org/2026.acl-long.1023 and arxiv.org/abs/2508.06600. The arXiv v1 (8 Aug 2025) carries the earlier title ``BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent'' and a 20-author list (no Hosna Oyarhoseini). Corpus/judge/baseline numbers in our notes were checked against the arXiv HTML}
+}
+
+@misc{wei2025browsecomp,
+  author        = {Jason Wei and Zhiqing Sun and Spencer Papay and Scott McKinney and Jeffrey Han and Isa Fulford and Hyung Won Chung and Alex Tachard Passos and William Fedus and Amelia Glaese},
+  title         = {{BrowseComp}: A Simple Yet Challenging Benchmark for Browsing Agents},
+  year          = {2025},
+  eprint        = {2504.12516},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.2504.12516},
+  url           = {https://arxiv.org/abs/2504.12516}
+}
+
+% ======================================================================
+% 4. FRAMES
+% ======================================================================
+@inproceedings{krishna2025frames,
+  author    = {Satyapriya Krishna and Kalpesh Krishna and Anhad Mohananey and Steven Schwarcz and Adam Stambler and Shyam Upadhyay and Manaal Faruqui},
+  title     = {Fact, Fetch, and Reason: A Unified Evaluation of Retrieval-Augmented Generation},
+  booktitle = {Proc. NAACL-HLT},
+  year      = {2025},
+  pages     = {4745--4759},
+  doi       = {10.18653/v1/2025.naacl-long.243},
+  url       = {https://aclanthology.org/2025.naacl-long.243/},
+  eprint    = {2409.12941},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note      = {verified 2026-10-31 via arxiv.org/abs/2409.12941 (comments: NAACL 2025) and Crossref record for DOI 10.18653/v1/2025.naacl-long.243 (pages 4745-4759)}
+}
+
+% ======================================================================
+% 5. OBLIQ-Bench
+% ======================================================================
+@misc{tchuindjo2026obliqbench,
+  author        = {Diane Tchuindjo and Devavrat Shah and Omar Khattab},
+  title         = {{OBLIQ-Bench}: Exposing Overlooked Bottlenecks in Modern Retrievers with Latent and Implicit Queries},
+  year          = {2026},
+  eprint        = {2605.06235},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  doi           = {10.48550/arXiv.2605.06235},
+  url           = {https://arxiv.org/abs/2605.06235},
+  note          = {verified 2026-10-31 via arxiv.org/abs/2605.06235 (v1 7 May 2026, v2 28 May 2026) and neurips.cc/virtual/2026/poster/139628 (NeurIPS 2026 poster). Proceedings not yet published; cite as arXiv / to appear NeurIPS 2026}
+}
+
+% ======================================================================
+% 6. DSPy
+% ======================================================================
+@inproceedings{khattab2024dspy,
+  author    = {Omar Khattab and Arnav Singhvi and Paridhi Maheshwari and Zhiyuan Zhang and Keshav Santhanam and Sri Vardhamanan and Saiful Haq and Ashutosh Sharma and Thomas T. Joshi and Hanna Moazam and Heather Miller and Matei Zaharia and Christopher Potts},
+  title     = {{DSPy}: Compiling Declarative Language Model Calls into State-of-the-Art Pipelines},
+  booktitle = {Proc. ICLR},
+  year      = {2024},
+  url       = {https://openreview.net/forum?id=sY5N0zY5Od},
+  eprint    = {2310.03714},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note      = {ICLR 2024 spotlight; the arXiv preprint carries the earlier title ``...into Self-Improving Pipelines''}
+}
+
+% ======================================================================
+% 7. Reason-ModernColBERT and PyLate
+% ======================================================================
+@misc{chaffin2025reasonmoderncolbert,
+  author       = {Antoine Chaffin},
+  title        = {{Reason-ModernColBERT}},
+  howpublished = {Hugging Face model card, \url{https://huggingface.co/lightonai/Reason-ModernColBERT}},
+  year         = {2025},
+  note         = {verified 2026-10-31 via the model card (LightOn; late-interaction model fine-tuned from GTE-ModernColBERT-v1 on reasonir-hq; CC-BY-NC-4.0; card's own BibTeX lists author Chaffin, 2025; no dedicated paper)}
+}
+
+@inproceedings{chaffin2025pylate,
+  author    = {Antoine Chaffin and Rapha{\"e}l Sourty},
+  title     = {{PyLate}: Flexible Training and Retrieval for Late Interaction Models},
+  booktitle = {Proc. CIKM},
+  year      = {2025},
+  pages     = {6334--6339},
+  doi       = {10.1145/3746252.3761608},
+  url       = {https://doi.org/10.1145/3746252.3761608},
+  eprint    = {2508.03555},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  note      = {verified 2026-10-31 via arxiv.org/abs/2508.03555 and Crossref record for DOI 10.1145/3746252.3761608 (CIKM '25, pages 6334-6339)}
+}
+
+% ======================================================================
+% 8. ColBERT family
+% ======================================================================
+@inproceedings{khattab2020colbert,
+  author    = {Omar Khattab and Matei Zaharia},
+  title     = {{ColBERT}: Efficient and Effective Passage Search via Contextualized Late Interaction over {BERT}},
+  booktitle = {Proc. SIGIR},
+  year      = {2020},
+  pages     = {39--48},
+  doi       = {10.1145/3397271.3401075},
+  url       = {https://doi.org/10.1145/3397271.3401075},
+  eprint    = {2004.12832},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  note      = {verified 2026-10-31 via arxiv.org/abs/2004.12832 (``Accepted at SIGIR 2020'') and Crossref record for DOI 10.1145/3397271.3401075 (pages 39-48)}
+}
+
+@inproceedings{santhanam2022colbertv2,
+  author    = {Keshav Santhanam and Omar Khattab and Jon Saad-Falcon and Christopher Potts and Matei Zaharia},
+  title     = {{ColBERTv2}: Effective and Efficient Retrieval via Lightweight Late Interaction},
+  booktitle = {Proc. NAACL-HLT},
+  year      = {2022},
+  pages     = {3715--3734},
+  doi       = {10.18653/v1/2022.naacl-main.272},
+  url       = {https://aclanthology.org/2022.naacl-main.272/},
+  eprint    = {2112.01488},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  note      = {verified 2026-10-31 via arxiv.org/abs/2112.01488 (``NAACL 2022'') and Crossref record for DOI 10.18653/v1/2022.naacl-main.272}
+}
+
+@inproceedings{santhanam2022plaid,
+  author    = {Keshav Santhanam and Omar Khattab and Christopher Potts and Matei Zaharia},
+  title     = {{PLAID}: An Efficient Engine for Late Interaction Retrieval},
+  booktitle = {Proc. CIKM},
+  year      = {2022},
+  pages     = {1747--1756},
+  doi       = {10.1145/3511808.3557325},
+  url       = {https://doi.org/10.1145/3511808.3557325},
+  eprint    = {2205.09707},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  note      = {verified 2026-10-31 via arxiv.org/abs/2205.09707 and Crossref record for DOI 10.1145/3511808.3557325 (CIKM '22, pages 1747-1756)}
+}
+
+% ======================================================================
+% 9. Qwen3 Embedding
+% ======================================================================
+@misc{zhang2025qwen3embedding,
+  author        = {Yanzhao Zhang and Mingxin Li and Dingkun Long and Xin Zhang and Huan Lin and Baosong Yang and Pengjun Xie and An Yang and Dayiheng Liu and Junyang Lin and Fei Huang and Jingren Zhou},
+  title         = {{Qwen3 Embedding}: Advancing Text Embedding and Reranking Through Foundation Models},
+  year          = {2025},
+  eprint        = {2506.05176},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.2506.05176},
+  url           = {https://arxiv.org/abs/2506.05176},
+  note          = {verified 2026-10-31 via arxiv.org/abs/2506.05176 (v1 5 Jun 2025, v3 11 Jun 2025; model sizes 0.6B/4B/8B)}
+}
+
+% ======================================================================
+% 10. BM25 and bm25s
+% ======================================================================
+@article{robertson2009bm25,
+  author    = {Stephen Robertson and Hugo Zaragoza},
+  title     = {The Probabilistic Relevance Framework: {BM25} and Beyond},
+  journal   = {Foundations and Trends in Information Retrieval},
+  volume    = {3},
+  number    = {4},
+  pages     = {333--389},
+  year      = {2009},
+  doi       = {10.1561/1500000019},
+  url       = {https://doi.org/10.1561/1500000019},
+  note      = {verified 2026-10-31 via doi.org/10.1561/1500000019 and Semantic Scholar (Found. Trends Inf. Retr. vol. 3, pp. 333-389), matching the monograph's canonical citation. NOTE: the Emerald landing page, Crossref and OpenAlex records for the same DOI list vol. 4, issue 1-2, pp. 1-174; publisher metadata appears inconsistent -- confirm against the PDF front matter before camera-ready}
+}
+
+@misc{lu2024bm25s,
+  author        = {Xing Han L{\`u}},
+  title         = {{BM25S}: Orders of magnitude faster lexical search via eager sparse scoring},
+  year          = {2024},
+  eprint        = {2407.03618},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  url           = {https://arxiv.org/abs/2407.03618},
+  note          = {verified 2026-10-31 via arxiv.org/abs/2407.03618 (v1 4 Jul 2024, ``Technical Report'') and api.github.com/repos/xhluca/bm25s}
+}
+
+% ======================================================================
+% 11. Gemini Embedding (paper) and Gemini Embedding 2 (blog)
+% ======================================================================
+@misc{lee2025geminiembedding,
+  author        = {Jinhyuk Lee and Feiyang Chen and Sahil Dua and Daniel Cer and Madhuri Shanbhogue and Iftekhar Naim and Gustavo Hern{\'a}ndez {\'A}brego and Zhe Li and Kaifeng Chen and Henrique Schechter Vera and Xiaoqi Ren and Shanfeng Zhang and Daniel Salz and Michael Boratko and Jay Han and Blair Chen and Shuo Huang and Vikram Rao and Paul Suganthan and Feng Han and Andreas Doumanoglou and Nithi Gupta and Fedor Moiseev and Cathy Yip and Aashi Jain and Simon Baumgartner and Shahrokh Shahi and Frank Palma Gomez and Sandeep Mariserla and Min Choi and Parashar Shah and Sonam Goenka and Ke Chen and Ye Xia and Koert Chen and Sai Meher Karthik Duddu and Yichang Chen and Trevor Walker and Wenlei Zhou and Rakesh Ghiya and Zach Gleicher and Karan Gill and Zhe Dong and Mojtaba Seyedhosseini and Yunhsuan Sung and Raphael Hoffmann and Tom Duerig},
+  title         = {Gemini Embedding: Generalizable Embeddings from {Gemini}},
+  year          = {2025},
+  eprint        = {2503.07891},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2503.07891},
+  note          = {verified 2026-10-31 via arxiv.org/abs/2503.07891 (v1 10 Mar 2025; 19 pages; 47 authors as listed)}
+}
+
+@misc{choi2026geminiembedding2,
+  author       = {Min Choi and Tom Duerig},
+  title        = {{Gemini Embedding 2}: Our First Natively Multimodal Embedding Model},
+  howpublished = {Google blog, \url{https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2/}},
+  month        = mar,
+  year         = {2026},
+  note         = {verified 2026-10-31 via the blog post (10 Mar 2026; bylines Min Choi and Tom Duerig, Google DeepMind; model id gemini-embedding-2-preview). No technical report or model card exists for Gemini Embedding 2; this blog is the only citable source}
+}
+
+% ======================================================================
+% 12-13. OpenAI / Qwen model documentation
+% ======================================================================
+@misc{openai2025gpt5systemcard,
+  author        = {{OpenAI}},
+  title         = {{OpenAI GPT-5 System Card}},
+  howpublished  = {\url{https://openai.com/index/gpt-5-system-card/}},
+  month         = aug,
+  year          = {2025},
+  note          = {Web version published 7 Aug 2025 (revised PDF 13 Aug 2025); arXiv version 19 Dec 2025, v2 1 May 2026}
+}
+
+@misc{openai2025gpt52,
+  author       = {{OpenAI}},
+  title        = {Introducing {GPT-5.2}},
+  howpublished = {\url{https://openai.com/index/introducing-gpt-5-2/}},
+  month        = dec,
+  year         = {2025},
+  note         = {secondary-source verification 2026-10-31: release date 11 Dec 2025 and official URL confirmed via Wikipedia (GPT-5.2) infobox and multiple news reports; openai.com returned HTTP 403 to the fetcher. A companion ``Update to GPT-5 System Card: GPT-5.2'' (openai.com/index/gpt-5-system-card-update-gpt-5-2, 11 Dec 2025) was seen only in search snippets -- re-check in a browser}
+}
+
+@misc{openai2025gpt41,
+  author       = {{OpenAI}},
+  title        = {Introducing {GPT-4.1} in the {API}},
+  howpublished = {\url{https://openai.com/index/gpt-4-1/}},
+  month        = apr,
+  year         = {2025},
+  note         = {secondary-source verification 2026-10-31: title, URL and 14 Apr 2025 release date confirmed via Wikipedia (GPT-4.1) reference list; openai.com returned HTTP 403 to the fetcher}
+}
+
+@misc{qwen2026qwen36,
+  author       = {{Qwen Team}},
+  title        = {{Qwen3.6-35B-A3B}},
+  howpublished = {Model card, \url{https://huggingface.co/Qwen/Qwen3.6-35B-A3B}},
+  month        = apr,
+  year         = {2026},
+  note         = {verified 2026-10-31 via the Hugging Face model card (35B total / 3B active, 256 experts, 262,144-token native context, Apache-2.0; card's own BibTeX: Qwen Team, April 2026)}
+}
+
+% ======================================================================
+% Part 2 -- related work: agents and tool use
+% ======================================================================
+@inproceedings{yao2023react,
+  author    = {Shunyu Yao and Jeffrey Zhao and Dian Yu and Nan Du and Izhak Shafran and Karthik Narasimhan and Yuan Cao},
+  title     = {{ReAct}: Synergizing Reasoning and Acting in Language Models},
+  booktitle = {Proc. ICLR},
+  year      = {2023},
+  url       = {https://openreview.net/forum?id=WE_vluYUL-X},
+  eprint    = {2210.03629},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note      = {verified 2026-10-31 via arxiv.org/abs/2210.03629 (v3 ``ICLR camera ready'') and iclr.cc/virtual/2023/oral/12647}
+}
+
+@inproceedings{wang2024codeact,
+  author    = {Xingyao Wang and Yangyi Chen and Lifan Yuan and Yizhe Zhang and Yunzhu Li and Hao Peng and Heng Ji},
+  title     = {Executable Code Actions Elicit Better {LLM} Agents},
+  booktitle = {Proc. ICML},
+  pages     = {50208--50232},
+  year      = {2024},
+  url       = {https://proceedings.mlr.press/v235/wang24h.html},
+  eprint    = {2402.01030},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note      = {verified 2026-10-31 via arxiv.org/abs/2402.01030 (``Accepted by ICML 2024'') and proceedings.mlr.press/v235/wang24h.html (PMLR 235:50208-50232)}
+}
+
+@inproceedings{jin2025searchr1,
+  author    = {Bowen Jin and Hansi Zeng and Zhenrui Yue and Jinsung Yoon and Sercan {\"O}. Ar{\i}k and Dong Wang and Hamed Zamani and Jiawei Han},
+  title     = {{Search-R1}: Training {LLMs} to Reason and Leverage Search Engines with Reinforcement Learning},
+  booktitle = {Proc. COLM},
+  year      = {2025},
+  eprint    = {2503.09516},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url       = {https://arxiv.org/abs/2503.09516},
+  note      = {verified 2026-10-31 via arxiv.org/abs/2503.09516 (v5 5 Aug 2025) and colmweb.org/2025/AcceptedPapers.html}
+}
+
+@misc{nakano2021webgpt,
+  author        = {Reiichiro Nakano and Jacob Hilton and Suchir Balaji and Jeff Wu and Long Ouyang and Christina Kim and Christopher Hesse and Shantanu Jain and Vineet Kosaraju and William Saunders and Xu Jiang and Karl Cobbe and Tyna Eloundou and Gretchen Krueger and Kevin Button and Matthew Knight and Benjamin Chess and John Schulman},
+  title         = {{WebGPT}: Browser-assisted question-answering with human feedback},
+  year          = {2021},
+  eprint        = {2112.09332},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2112.09332},
+  note          = {verified 2026-10-31 via arxiv.org/abs/2112.09332 (v1 17 Dec 2021, v3 1 Jun 2022; preprint only)}
+}
+
+@inproceedings{asai2024selfrag,
+  author    = {Akari Asai and Zeqiu Wu and Yizhong Wang and Avirup Sil and Hannaneh Hajishirzi},
+  title     = {{Self-RAG}: Learning to Retrieve, Generate, and Critique through Self-Reflection},
+  booktitle = {Proc. ICLR},
+  year      = {2024},
+  eprint    = {2310.11511},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url       = {https://arxiv.org/abs/2310.11511},
+  note      = {verified 2026-10-31 via arxiv.org/abs/2310.11511 and iclr.cc/virtual/2024/oral/19736 (ICLR 2024 oral)}
+}
+
+@inproceedings{trivedi2023ircot,
+  author    = {Harsh Trivedi and Niranjan Balasubramanian and Tushar Khot and Ashish Sabharwal},
+  title     = {Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions},
+  booktitle = {Proc. ACL},
+  year      = {2023},
+  pages     = {10014--10037},
+  doi       = {10.18653/v1/2023.acl-long.557},
+  url       = {https://aclanthology.org/2023.acl-long.557/},
+  eprint    = {2212.10509},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note      = {verified 2026-10-31 via arxiv.org/abs/2212.10509 (``ACL'23 Camera Ready'') and Crossref record for DOI 10.18653/v1/2023.acl-long.557}
+}
+
+% ======================================================================
+% Part 2 -- related work: long context vs. retrieval
+% ======================================================================
+@article{liu2024lostmiddle,
+  author  = {Nelson F. Liu and Kevin Lin and John Hewitt and Ashwin Paranjape and Michele Bevilacqua and Fabio Petroni and Percy Liang},
+  title   = {Lost in the Middle: How Language Models Use Long Contexts},
+  journal = {Transactions of the Association for Computational Linguistics},
+  volume  = {12},
+  pages   = {157--173},
+  year    = {2024},
+  doi     = {10.1162/tacl_a_00638},
+  url     = {https://aclanthology.org/2024.tacl-1.9/},
+  eprint  = {2307.03172},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note    = {verified 2026-10-31 via arxiv.org/abs/2307.03172 and Crossref record for DOI 10.1162/tacl_a_00638 (TACL vol. 12, pp. 157-173)}
+}
+
+@inproceedings{li2024ragvslongcontext,
+  author    = {Zhuowan Li and Cheng Li and Mingyang Zhang and Qiaozhu Mei and Michael Bendersky},
+  title     = {Retrieval Augmented Generation or Long-Context {LLMs}? {A} Comprehensive Study and Hybrid Approach},
+  booktitle = {Proc. EMNLP (Industry Track)},
+  year      = {2024},
+  pages     = {881--893},
+  doi       = {10.18653/v1/2024.emnlp-industry.66},
+  url       = {https://aclanthology.org/2024.emnlp-industry.66/},
+  eprint    = {2407.16833},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note      = {verified 2026-10-31 via arxiv.org/abs/2407.16833 (``Accepted to EMNLP 2024 industry track'') and Crossref record for DOI 10.18653/v1/2024.emnlp-industry.66}
+}
+
+@misc{packer2023memgpt,
+  author        = {Charles Packer and Sarah Wooders and Kevin Lin and Vivian Fang and Shishir G. Patil and Ion Stoica and Joseph E. Gonzalez},
+  title         = {{MemGPT}: Towards {LLMs} as Operating Systems},
+  year          = {2023},
+  eprint        = {2310.08560},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  doi           = {10.48550/arXiv.2310.08560},
+  url           = {https://arxiv.org/abs/2310.08560},
+  note          = {verified 2026-10-31 via arxiv.org/abs/2310.08560 (v1 12 Oct 2023, v2 12 Feb 2024; preprint only)}
+}
+
+@inproceedings{hsieh2024ruler,
+  author    = {Cheng-Ping Hsieh and Simeng Sun and Samuel Kriman and Shantanu Acharya and Dima Rekesh and Fei Jia and Yang Zhang and Boris Ginsburg},
+  title     = {{RULER}: What's the Real Context Size of Your Long-Context Language Models?},
+  booktitle = {Proc. COLM},
+  year      = {2024},
+  eprint    = {2404.06654},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url       = {https://arxiv.org/abs/2404.06654},
+  note      = {verified 2026-10-31 via arxiv.org/abs/2404.06654 (comments: ``COLM 2024'')}
+}
+
+@misc{hong2025contextrot,
+  author       = {Kelly Hong and Anton Troynikov and Jeff Huber},
+  title        = {Context Rot: How Increasing Input Tokens Impacts {LLM} Performance},
+  howpublished = {Chroma Technical Report, \url{https://www.trychroma.com/research/context-rot}},
+  month        = jul,
+  year         = {2025},
+  note         = {verified 2026-10-31 via trychroma.com/research/context-rot (14 Jul 2025; 18 LLMs). This is the ``Hong et al., 2025'' the RLM paper cites for context rot}
+}
+
+@misc{zhang2024agenticir,
+  author        = {Weinan Zhang and Junwei Liao and Ning Li and Kounianhua Du and Jianghao Lin},
+  title         = {Agentic Information Retrieval},
+  year          = {2024},
+  eprint        = {2410.09713},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  doi           = {10.48550/arXiv.2410.09713},
+  url           = {https://arxiv.org/abs/2410.09713},
+  note          = {verified 2026-10-31 via arxiv.org/abs/2410.09713 (v1 13 Oct 2024, v4 23 Feb 2025; ``11 pages, perspective paper'')}
+}
+
+@misc{huang2025deepresearchagents,
+  author        = {Yuxuan Huang and Yihang Chen and Haozheng Zhang and Kang Li and Huichi Zhou and Meng Fang and Linyi Yang and Xiaoguang Li and Lifeng Shang and Songcen Xu and Jianye Hao and Kun Shao and Jun Wang},
+  title         = {Deep Research Agents: A Systematic Examination and Roadmap},
+  year          = {2025},
+  eprint        = {2506.18096},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  doi           = {10.48550/arXiv.2506.18096},
+  url           = {https://arxiv.org/abs/2506.18096},
+  note          = {verified 2026-10-31 via arxiv.org/abs/2506.18096 (v1 22 Jun 2025, v2 3 Sep 2025; preprint only)}
+}
+
+% ======================================================================
+% Part 2 -- evaluation methodology and statistics
+% ======================================================================
+@book{wohlin2012experimentation,
+  author    = {Claes Wohlin and Per Runeson and Martin H{\"o}st and Magnus C. Ohlsson and Bj{\"o}rn Regnell and Anders Wessl{\'e}n},
+  title     = {Experimentation in Software Engineering},
+  year      = {2012},
+  isbn      = {978-3-642-29043-5},
+  doi       = {10.1007/978-3-642-29044-2},
+  url       = {https://doi.org/10.1007/978-3-642-29044-2},
+  note      = {verified 2026-10-31 via Crossref record for DOI 10.1007/978-3-642-29044-2 (Springer Berlin Heidelberg, 2012; ISBN 9783642290435 / 9783642290442)}
+}
+
+@article{mcnemar1947,
+  author  = {Quinn McNemar},
+  title   = {Note on the Sampling Error of the Difference Between Correlated Proportions or Percentages},
+  journal = {Psychometrika},
+  volume  = {12},
+  number  = {2},
+  pages   = {153--157},
+  year    = {1947},
+  doi     = {10.1007/BF02295996},
+  url     = {https://doi.org/10.1007/BF02295996},
+  note    = {verified 2026-10-31 via Crossref record for DOI 10.1007/BF02295996 (Psychometrika 12(2):153-157, June 1947)}
+}
+
+@article{dietterich1998,
+  author  = {Thomas G. Dietterich},
+  title   = {Approximate Statistical Tests for Comparing Supervised Classification Learning Algorithms},
+  journal = {Neural Computation},
+  volume  = {10},
+  number  = {7},
+  pages   = {1895--1923},
+  year    = {1998},
+  doi     = {10.1162/089976698300017197},
+  url     = {https://doi.org/10.1162/089976698300017197},
+  note    = {verified 2026-10-31 via Crossref record for DOI 10.1162/089976698300017197 (Neural Computation 10(7):1895-1923, Oct 1998)}
+}
+
+@article{kapoor2025aiagents,
+  author  = {Sayash Kapoor and Benedikt Stroebl and Zachary S. Siegel and Nitya Nadgir and Arvind Narayanan},
+  title   = {{AI} Agents That Matter},
+  journal = {Transactions on Machine Learning Research},
+  year    = {2025},
+  url     = {https://openreview.net/forum?id=Zy4uFzMviZ},
+  eprint  = {2407.01502},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  note    = {verified 2026-10-31 via arxiv.org/abs/2407.01502 (v1 1 Jul 2024) and Semantic Scholar record (Trans. Mach. Learn. Res. 2025); OpenReview forum id taken from citing papers because openreview.net blocked the fetcher}
+}
+
+@misc{miller2024errorbars,
+  author        = {Evan Miller},
+  title         = {Adding Error Bars to Evals: A Statistical Approach to Language Model Evaluations},
+  year          = {2024},
+  eprint        = {2411.00640},
+  archivePrefix = {arXiv},
+  primaryClass  = {stat.AP},
+  doi           = {10.48550/arXiv.2411.00640},
+  url           = {https://arxiv.org/abs/2411.00640}
+}
+
+@misc{madaan2024variance,
+  author        = {Lovish Madaan and Aaditya K. Singh and Rylan Schaeffer and Andrew Poulton and Sanmi Koyejo and Pontus Stenetorp and Sharan Narang and Dieuwke Hupkes},
+  title         = {Quantifying Variance in Evaluation Benchmarks},
+  year          = {2024},
+  eprint        = {2406.10229},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  doi           = {10.48550/arXiv.2406.10229},
+  url           = {https://arxiv.org/abs/2406.10229},
+  note          = {verified 2026-10-31 via arxiv.org/abs/2406.10229 (v1 14 Jun 2024; preprint only)}
+}
+
+% ---- added 2026-11-02 after the draft-1 reviews; verified in research/RELATED_WORK_VERIFICATION_2026-11-02.md ----
+
+@inproceedings{li2025searcho1,
+  author    = {Xiaoxi Li and Guanting Dong and Jiajie Jin and Yuyao Zhang and Yujia Zhou and Yutao Zhu and Peitian Zhang and Zhicheng Dou},
+  title     = {{Search-o1}: Agentic Search-Enhanced Large Reasoning Models},
+  booktitle = {Proc. EMNLP},
+  month     = nov,
+  year      = {2025},
+  pages     = {5420--5438},
+  doi       = {10.18653/v1/2025.emnlp-main.276},
+  url       = {https://aclanthology.org/2025.emnlp-main.276/},
+  eprint    = {2501.05366},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  note      = {verified 2026-11-02 via aclanthology.org/2025.emnlp-main.276 (pages, DOI, editors) and arxiv.org/abs/2501.05366 (v1 9 Jan 2025)}
+}
+
+@misc{wu2025resum,
+  author        = {Xixi Wu and Kuan Li and Yida Zhao and Liwen Zhang and Litu Ou and Huifeng Yin and Zhongwang Zhang and Xinmiao Yu and Dingchu Zhang and Yong Jiang and Pengjun Xie and Fei Huang and Minhao Cheng and Shuai Wang and Hong Cheng and Jingren Zhou},
+  title         = {{ReSum}: Unlocking Long-Horizon Search Intelligence via Context Summarization},
+  year          = {2025},
+  eprint        = {2509.13313},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  doi           = {10.48550/arXiv.2509.13313},
+  url           = {https://arxiv.org/abs/2509.13313},
+  note          = {arXiv preprint; verified 2026-11-02 via arxiv.org/abs/2509.13313 (v1 16 Sep 2025, v2 15 Oct 2025, v3 26 Mar 2026; no venue in Comments). Affiliations per the arXiv HTML author block: CUHK, Tongyi Lab (Alibaba Group), HKUST, Penn State. No conference/journal version found (OpenReview search empty; listed without venue tag in github.com/Alibaba-NLP/DeepResearch)}
+}
+
+@inproceedings{zhou2026mem1,
+  author    = {Zijian Zhou and Ao Qu and Zhaoxuan Wu and Sunghwan Kim and Alok Prakash and Daniela Rus and Bryan Kian Hsiang Low and Paul Pu Liang},
+  title     = {{MEM1}: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents},
+  booktitle = {Proc. ICLR},
+  year      = {2026},
+  url       = {https://openreview.net/forum?id=XY8AaxDSLb},
+  eprint    = {2506.15841},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note      = {Author list follows the ICLR 2026 record (8 authors); arXiv v2 lists 9 (adds Jinhua Zhao). Confirm on OpenReview before camera-ready}
+}
+
+@inproceedings{press2023selfask,
+  author    = {Ofir Press and Muru Zhang and Sewon Min and Ludwig Schmidt and Noah A. Smith and Mike Lewis},
+  title     = {Measuring and Narrowing the Compositionality Gap in Language Models},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2023},
+  month     = dec,
+  year      = {2023},
+  pages     = {5687--5711},
+  doi       = {10.18653/v1/2023.findings-emnlp.378},
+  url       = {https://aclanthology.org/2023.findings-emnlp.378/},
+  eprint    = {2210.03350},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note      = {verified 2026-11-02 via aclanthology.org/2023.findings-emnlp.378 (pages, DOI) and arxiv.org/abs/2210.03350 (v3 17 Oct 2023, ``To appear at Findings of EMNLP 2023''). Introduces self-ask prompting}
+}
+
+@inproceedings{jiang2023flare,
+  author    = {Zhengbao Jiang and Frank F. Xu and Luyu Gao and Zhiqing Sun and Qian Liu and Jane Dwivedi-Yu and Yiming Yang and Jamie Callan and Graham Neubig},
+  title     = {Active Retrieval Augmented Generation},
+  booktitle = {Proc. EMNLP},
+  month     = dec,
+  year      = {2023},
+  pages     = {7969--7992},
+  doi       = {10.18653/v1/2023.emnlp-main.495},
+  url       = {https://aclanthology.org/2023.emnlp-main.495/},
+  eprint    = {2305.06983},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note      = {verified 2026-11-02 via aclanthology.org/2023.emnlp-main.495 (pages, DOI) and arxiv.org/abs/2305.06983 (v2 22 Oct 2023, ``EMNLP 2023''). The method is named FLARE in the abstract}
+}
+
+@inproceedings{yang2024sweagent,
+  author    = {John Yang and Carlos E. Jimenez and Alexander Wettig and Kilian Lieret and Shunyu Yao and Karthik Narasimhan and Ofir Press},
+  title     = {{SWE-agent}: Agent-Computer Interfaces Enable Automated Software Engineering},
+  booktitle = {Proc. NeurIPS},
+  volume    = {37},
+  pages     = {50528--50652},
+  year      = {2024},
+  doi       = {10.52202/079017-1601},
+  url       = {https://proceedings.neurips.cc/paper_files/paper/2024/hash/5a7c947568c1b1328ccc5230172e1e7c-Abstract-Conference.html},
+  eprint    = {2405.15793},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  note      = {verified 2026-11-02 via the NeurIPS 2024 proceedings page and its BibTeX file (Main Conference Track, vol. 37, pp. 50528-50652, DOI 10.52202/079017-1601) and arxiv.org/abs/2405.15793 (v3 11 Nov 2024)}
+}
+
+@inproceedings{gao2023pal,
+  author    = {Luyu Gao and Aman Madaan and Shuyan Zhou and Uri Alon and Pengfei Liu and Yiming Yang and Jamie Callan and Graham Neubig},
+  title     = {{PAL}: Program-aided Language Models},
+  booktitle = {Proc. ICML},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {202},
+  pages     = {10764--10799},
+  year      = {2023},
+  url       = {https://proceedings.mlr.press/v202/gao23f.html},
+  eprint    = {2211.10435},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note      = {verified 2026-11-02 via proceedings.mlr.press/v202/gao23f.html (PMLR 202:10764-10799) and arxiv.org/abs/2211.10435 (v2 27 Jan 2023)}
+}
+
+@article{chen2023pot,
+  author    = {Wenhu Chen and Xueguang Ma and Xinyi Wang and William W. Cohen},
+  title     = {Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks},
+  journal   = {Transactions on Machine Learning Research},
+  year      = {2023},
+  url       = {https://openreview.net/forum?id=YfZ4ZPt8zd},
+  eprint    = {2211.12588},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note      = {verified 2026-11-02 via arxiv.org/abs/2211.12588 (v4 23 Oct 2023, Comments ``Published at TMLR 2023'') and the authors' repository github.com/TIGER-AI-Lab/Program-of-Thoughts (``TMLR2023 paper''). The OpenReview forum YfZ4ZPt8zd was behind a browser check; publication month not confirmed -- re-check in a browser}
+}
+
+@inproceedings{zhang2024chainofagents,
+  author    = {Yusen Zhang and Ruoxi Sun and Yanfei Chen and Tomas Pfister and Rui Zhang and Sercan {\"O}. Ar{\i}k},
+  title     = {Chain of Agents: Large Language Models Collaborating on Long-Context Tasks},
+  booktitle = {Proc. NeurIPS},
+  volume    = {37},
+  pages     = {132208--132237},
+  year      = {2024},
+  doi       = {10.52202/079017-4202},
+  url       = {https://proceedings.neurips.cc/paper_files/paper/2024/hash/ee71a4b14ec26710b39ee6be113d7750-Abstract.html},
+  eprint    = {2406.02818},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note      = {verified 2026-11-02 via the NeurIPS 2024 proceedings page and its BibTeX file (Main Conference Track, vol. 37, pp. 132208-132237, DOI 10.52202/079017-4202) and arxiv.org/abs/2406.02818 (v1 4 Jun 2024)}
+}
+
+@inproceedings{levy2024sametask,
+  author    = {Mosh Levy and Alon Jacoby and Yoav Goldberg},
+  title     = {Same Task, More Tokens: the Impact of Input Length on the Reasoning Performance of Large Language Models},
+  booktitle = {Proc. ACL},
+  month     = aug,
+  year      = {2024},
+  pages     = {15339--15353},
+  doi       = {10.18653/v1/2024.acl-long.818},
+  url       = {https://aclanthology.org/2024.acl-long.818/},
+  eprint    = {2402.14848},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note      = {verified 2026-11-02 via aclanthology.org/2024.acl-long.818 (pages, DOI) and arxiv.org/abs/2402.14848 (v2 10 Jul 2024, ``Accepted to ACL 2024'')}
+}
+
+@inproceedings{modarressi2025nolima,
+  author    = {Ali Modarressi and Hanieh Deilamsalehy and Franck Dernoncourt and Trung Bui and Ryan A. Rossi and Seunghyun Yoon and Hinrich Sch{\"u}tze},
+  title     = {{NoLiMa}: Long-Context Evaluation Beyond Literal Matching},
+  booktitle = {Proceedings of the 42nd International Conference on Machine Learning (ICML)},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {267},
+  pages     = {44554--44570},
+  year      = {2025},
+  url       = {https://proceedings.mlr.press/v267/modarressi25a.html},
+  eprint    = {2502.05167},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  note      = {verified 2026-11-02 via proceedings.mlr.press/v267/modarressi25a.html (PMLR 267:44554-44570; last author spelled ``Schuetze'' there) and arxiv.org/abs/2502.05167 (v3 9 Jul 2025, ``Accepted at ICML 2025'')}
+}
+
+@inproceedings{barnett2024sevenfailure,
+  author    = {Scott Barnett and Stefanus Kurniawan and Srikanth Thudumu and Zach Brannelly and Mohamed Abdelrazek},
+  title     = {Seven Failure Points When Engineering a Retrieval Augmented Generation System},
+  booktitle = {Proc. CAIN},
+  month     = apr,
+  year      = {2024},
+  pages     = {194--199},
+  doi       = {10.1145/3644815.3644945},
+  url       = {https://doi.org/10.1145/3644815.3644945},
+  eprint    = {2401.05856},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  note      = {verified 2026-11-02 via the Crossref record for 10.1145/3644815.3644945 (ACM; CAIN 2024, Lisbon; pp. 194-199; published 2024-04-14), arxiv.org/abs/2401.05856 (v1 11 Jan 2024) and conf.researchr.org/home/cain-2024 (co-located with ICSE 2024, 14-15 Apr 2024). dl.acm.org itself returned HTTP 403}
+}
+
+@misc{dspy2026rlmmodule,
+  author       = {{DSPy contributors}},
+  title        = {{dspy.RLM}: {API} reference and ``{RLM}: exploring large contexts with code''},
+  howpublished = {DSPy documentation, \url{https://dspy.ai/api/modules/RLM/}},
+  year         = {2026},
+  note         = {Module added by stanfordnlp/dspy PR \#9193 (merged 16 Jan 2026) and first shipped in DSPy 3.1.1 (GitHub release published 19 Jan 2026); docs added by PR \#9264 (7 Feb 2026). The API page states the module implements Zhang, Kraska and Khattab's Recursive Language Models (arXiv 2512.24601). Verified 2026-11-02 via dspy.ai, github.com/stanfordnlp/dspy/releases/tag/3.1.1 and the GitHub API}
+}
+
+@misc{sen2026grep,
+  title = {Is Grep All You Need? {How} Agent Harnesses Reshape Agentic Search},
+  author = {Sen, Sahil and Kasturi, Akhil and Lumer, Elias and Gulati, Anmol and Subbiah, Vamse Kumar},
+  year = {2026},
+  eprint = {2605.15184},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CL},
+  url = {https://arxiv.org/abs/2605.15184},
+  note = {Verified 2026-11-02 against the arXiv abstract page (v1, 14 May 2026): long-memory conversational QA (LongMemEval-S, 116 questions); regex/substring grep over per-question text files, delivered inline, beat vector retrieval for every harness-model pair in experiment 1; the harness shapes the outcome; no general claim that grep beats vector retrieval.}
+}
+
+@article{holm1979,
+  author  = {Sture Holm},
+  title   = {A Simple Sequentially Rejective Multiple Test Procedure},
+  journal = {Scandinavian Journal of Statistics},
+  volume  = {6},
+  number  = {2},
+  pages   = {65--70},
+  year    = {1979},
+}
+
+@misc{lu2026drdci,
+  title         = {{Dr-DCI}: Scaling Direct Corpus Interaction via Dynamic Workspace Expansion},
+  author        = {Lu, Yi and Li, Zhuofeng and Nie, Ping and Zhang, Haoxiang and Zhang, Yuyu and Zou, Kai and Chen, Wenhu and Lin, Jimmy and Jiang, Dongfu and Zhang, Yu},
+  year          = {2026},
+  eprint        = {2606.14885},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  url           = {https://arxiv.org/abs/2606.14885}
+}
+@misc{liu2026fetchthenexplore,
+  title         = {Fetch-then-Explore: Decoupling Selection from Extraction over a Persistent Workspace for Search Agents},
+  author        = {Liu, Qi and Chen, Yiqun and Chen, Zidan and Gao, Yan and Wu, Yi and Hu, Yao and Mao, Jiaxin and Zhu, Fengbin and Chua, Tat-Seng},
+  year          = {2026},
+  eprint        = {2608.02097},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  url           = {https://arxiv.org/abs/2608.02097}
+}
+@misc{cao2026codingagents,
+  title         = {Coding Agents are Effective Long-Context Processors},
+  author        = {Cao, Weili and Yin, Xunjian and Dhingra, Bhuwan and Zhou, Shuyan},
+  year          = {2026},
+  eprint        = {2603.20432},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2603.20432}
+}
+@misc{li2026dci,
+  title         = {Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction},
+  author        = {Li, Zhuofeng and Zhang, Haoxiang and Wei, Cong and Lu, Pan and Nie, Ping and Lu, Yi and Bai, Yuyang and Feng, Shangbin and Zhu, Hangxiao and Zhong, Ming and Zhang, Yuyu and Xie, Jianwen and Choi, Yejin and Zou, James and Han, Jiawei and Chen, Wenhu and Lin, Jimmy and Jiang, Dongfu and Zhang, Yu},
+  year          = {2026},
+  eprint        = {2605.05242},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  url           = {https://arxiv.org/abs/2605.05242}
+}
+@misc{zhuang2026rise,
+  title         = {Towards Retrieving Interaction Spaces for Agentic Search},
+  author        = {Zhuang, Shengyao and Ni, Yuansheng and Fun, Hengxin and Lin, Jimmy and Ma, Xueguang},
+  year          = {2026},
+  eprint        = {2606.06880},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  url           = {https://arxiv.org/abs/2606.06880}
+}
+@inproceedings{du2025contextlength,
+  title     = {Context Length Alone Hurts {LLM} Performance Despite Perfect Retrieval},
+  author    = {Du, Yufeng and Tian, Minyang and Ronanki, Srikanth and Rongali, Subendhu and Bodapati, Sravan Babu and Galstyan, Aram and Wells, Azton and Schwartz, Roy and Huerta, Eliu A and Peng, Hao},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2025},
+  year      = {2025},
+  pages     = {23281--23298},
+  doi       = {10.18653/v1/2025.findings-emnlp.1264},
+  url       = {https://aclanthology.org/2025.findings-emnlp.1264/}
+}
+@misc{yen2025slim,
+  title         = {Lost in the Maze: Overcoming Context Limitations in Long-Horizon Agentic Search},
+  author        = {Yen, Howard and Lee, Yoonsang and Paranjape, Ashwin and Xia, Mengzhou and Venkatesh, Thejas and Hessel, Jack and Chen, Danqi and Zhang, Yuhao},
+  year          = {2025},
+  eprint        = {2510.18939},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2510.18939}
+}
+@misc{zhang2026masking,
+  title         = {Masking Stale Observations Helps Search Agents -- Until It Doesn't: A Regime Map and Its Mechanism},
+  author        = {Zhang, Haoxiang and Xu, Qixin and Li, Zhuofeng and Zhang, Lei and Jiang, Pengcheng and Zhang, Yu and McAuley, Julian},
+  year          = {2026},
+  eprint        = {2606.00408},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2606.00408}
+}
+@misc{bcpleaderboard,
+  title        = {{BrowseComp-Plus} Leaderboard},
+  author       = {{Tevatron}},
+  year         = {2026},
+  howpublished = {\url{https://huggingface.co/spaces/Tevatron/BrowseComp-Plus}},
+  note         = {Accessed 2 November 2026}
+}
+@misc{lindenbauer2025complexitytrap,
+  title         = {The Complexity Trap: Simple Observation Masking Is as Efficient as {LLM} Summarization for Agent Context Management},
+  author        = {Lindenbauer, Tobias and Slinko, Igor and Felder, Ludwig and Bogomolov, Egor and Zharov, Yaroslav},
+  year          = {2025},
+  eprint        = {2508.21433},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  url           = {https://arxiv.org/abs/2508.21433}
+}
+@inproceedings{sharifymoghaddam2026rerank,
+  title         = {Rerank Before You Reason: Analyzing Reranking Tradeoffs through Effective Token Cost in Deep Search Agents},
+  author        = {Sharifymoghaddam, Sahel and Lin, Jimmy},
+  booktitle     = {Findings of the Association for Computational Linguistics: ACL 2026},
+  pages         = {25874--25886},
+  year          = {2026},
+  eprint        = {2601.14224},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  url           = {https://arxiv.org/abs/2601.14224}
+}
+@misc{qian2026psa,
+  title         = {Programmatic Search Agents: Extending Agentic Search Beyond Query Reformulation},
+  author        = {Qian, Jiaming and Yang, Huiyan and Liu, Mandi and Liu, Jie and Shen, Wenkai and Zhou, Pengyang and Jin, Jing and Ma, Jin and Ye, Dezhi and Chen, Chaochao},
+  year          = {2026},
+  eprint        = {2610.06689},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2610.06689}
+}
+@misc{liu2026opensac,
+  title         = {{OpenSaC}: A {Python} Library for Search as Code in Deep Research Agents},
+  author        = {Liu, Qi and Mao, Jiaxin and Zhu, Fengbin and Chua, Tat-Seng and Wen, Ji-Rong},
+  year          = {2026},
+  eprint        = {2610.25779},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  url           = {https://arxiv.org/abs/2610.25779}
+}
+@misc{lin2026scroll,
+  title         = {Context as an Environment: Programmatic Context Management for Long-Horizon Agents},
+  author        = {Lin, Yin and Ang, Elaine and Zhu, Erkang and Ding, Bolin and Zhou, Jingren},
+  year          = {2026},
+  eprint        = {2608.21690},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  url           = {https://arxiv.org/abs/2608.21690}
+}
+@inproceedings{wang2024codeact,
+  title     = {Executable Code Actions Elicit Better {LLM} Agents},
+  author    = {Wang, Xingyao and Chen, Yangyi and Yuan, Lifan and Zhang, Yizhe and Li, Yunzhu and Peng, Hao and Ji, Heng},
+  booktitle = {Proc. ICML},
+  pages     = {50208--50232},
+  year      = {2024}
+}
+@misc{jones2025codemcp,
+  title        = {Code Execution with {MCP}: Building More Efficient Agents},
+  author       = {Jones, Adam and Kelly, Conor},
+  year         = {2025},
+  howpublished = {Anthropic Engineering, \url{https://www.anthropic.com/engineering/code-execution-with-mcp}},
+  note         = {Published 4 November 2025}
+}
+@misc{anthropic2026dynamicfiltering,
+  title        = {Increase Web Search Accuracy and Efficiency with Dynamic Filtering},
+  author       = {{Anthropic}},
+  year         = {2026},
+  howpublished = {Claude blog, \url{https://claude.com/blog/improved-web-search-with-dynamic-filtering}},
+  note         = {Published 17 February 2026}
+}
+@misc{hsu2026piserini,
+  title         = {Rethinking Agentic Search with {Pi-Serini}: Is Lexical Retrieval Sufficient?},
+  author        = {Hsu, Tz-Huan and Yang, Jheng-Hong and Lin, Jimmy},
+  year          = {2026},
+  eprint        = {2605.10848},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.IR},
+  url           = {https://arxiv.org/abs/2605.10848}
+}
+@inproceedings{agrawal2026gepa,
+  title         = {{GEPA}: Reflective Prompt Evolution Can Outperform Reinforcement Learning},
+  author        = {Agrawal, Lakshya A and Tan, Shangyin and Soylu, Dilara and Ziems, Noah and Khare, Rishi and Opsahl-Ong, Krista and Singhvi, Arnav and Shandilya, Herumb and Ryan, Michael J and Jiang, Meng and Potts, Christopher and Sen, Koushik and Dimakis, Alexandros G. and Stoica, Ion and Klein, Dan and Zaharia, Matei and Khattab, Omar},
+  booktitle     = {Proc. ICLR},
+  year          = {2026},
+  eprint        = {2507.19457},
+  archivePrefix = {arXiv},
+  url           = {https://arxiv.org/abs/2507.19457}
+}
+
+@misc{liu2026fte,
+  title         = {Fetch-then-Explore: Decoupling Selection from Extraction over a Persistent Workspace for Search Agents},
+  author        = {Liu, Qi and Chen, Yiqun and Chen, Zidan and Gao, Yan and Wu, Yi and Hu, Yao and Mao, Jiaxin and Zhu, Fengbin and Chua, Tat-Seng},
+  year          = {2026},
+  eprint        = {2608.02097},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  url           = {https://arxiv.org/abs/2608.02097}
+}
