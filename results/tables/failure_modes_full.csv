@@ -1,0 +1,10 @@
+group,label,source,n,right,no_answer,nothing_found,partly_found,found_misread
+"BrowseComp-Plus, dense","delegated, no cap",BCP-9,830,659,45,58,25,43
+"BrowseComp-Plus, dense","active, cap 20",fd_cap20_830,830,724,22,39,16,29
+"BrowseComp-Plus, dense","fetch-then-explore, no cap",fte_full830,830,650,5,119,19,37
+"BrowseComp-Plus, late interaction","delegated, no cap",BCP-11,830,712,29,33,17,39
+"BrowseComp-Plus, late interaction","active, cap 20",fd_colbert20_830,830,736,22,27,14,31
+"BrowseComp-Plus, BM25","delegated, no cap",BCP-13,830,560,66,123,43,38
+"BrowseComp-Plus, BM25","active, cap 10",BCP-25,830,498,121,171,23,17
+"FRAMES, BM25","delegated, cap 25",FR-7,824,629,13,23,99,60
+"FRAMES, BM25","active, cap 10",FR-11,824,665,4,15,85,55

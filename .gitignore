@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.secrets/
+*.env
+!*.env.example
+configs/paths.env
+.ruff_cache/
+!configs/paths.example.env
+third_party/

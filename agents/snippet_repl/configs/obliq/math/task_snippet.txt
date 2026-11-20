@@ -1,0 +1,23 @@
+
+
+Rank documents from the corpus that satisfy the request.
+
+The request gives a math problem. A satisfying document is ANOTHER problem whose solution uses the same CORE
+REASONING PATTERN - the same abstract proof strategy, the same "aha moment" - regardless of topic, vocabulary or
+mathematical field. Problems that only look alike (same field, same objects, similar notation) are usually NOT
+matches, so judge each candidate by the proof it needs, not by how it is phrased.
+
+Before searching, work out how the query problem would be solved (no solutions are given: infer the likely proof
+from the statement) and name the key insight that unlocks it, the meta-move - e.g. "exploit uniqueness of X to
+constrain the answer", "transform representation -> swap order of operations -> collapse", "diagonalize /
+decompose -> solve per component -> reassemble", "finite domain: injective <=> surjective", "symmetry averaging
+to project onto invariants".
+
+Each hop, search a DIFFERENT angle - state the meta-move abstractly, or phrase a problem from another field
+(combinatorics, number theory, algebra, analysis, geometry, probability, linear algebra) that it would solve.
+
+Set answer["content"] to a newline-separated list of doc_ids ranked STRONGEST TO WEAKEST,
+then answer["ready"] = True. Output ONLY doc_ids, one per line, no prose and no numbering.
+Order matters: the score is NDCG@10, so a satisfying document at rank 1 is worth more than
+the same document at rank 10. Submit more than 10 if you have them -- only the top 10 are
+scored, so extra candidates cost nothing.
